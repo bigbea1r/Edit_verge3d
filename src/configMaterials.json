@@ -1,0 +1,89 @@
+{
+        "Object": {
+            "Door": {
+                "MeshPhysicalMaterial": {
+                    "Светлое дерево": {
+                        "shader_name" : "M1_DoorBase",
+                        "Texture": { 
+                                     "map": "/textures/BaseColor/D1_wood1. DoorBase. BC.png",
+                                     "roughnessMap": "/textures/RoughMet/D1_wood1. DoorBase. RM.png",
+                                     "normalMap": null
+                        }
+                        },
+                    "Темное дерево": {
+                        "shader_name" : "M1_DoorBase",
+                        "Texture": { 
+                                     "map": "/textures/BaseColor/D2_wood2. DoorBase. BC.png",
+                                     "roughnessMap": "/textures/RoughMet/D2_wood2. DoorBase. RM.png",
+                                     "normalMap": "/textures/NRM/D2_wood2. DoorBase. NRM.png"
+                        }
+                    },
+                    "Черный пластик": {
+                        "shader_name" : "M1_DoorBase",
+                        "Texture": { 
+                                     "map": "/textures/BaseColor/D3_BlackPlastic. DoorBase. BC.png",
+                                     "roughnessMap": "/textures/RoughMet/D3_BlackPlastic. DoorBase. RM.png",
+                                     "normalMap": null
+                        }
+                    }
+                }
+            },
+            "Handle": {
+                "MeshPhysicalMaterial": {
+                    "Серебренная": {
+                        "shader_name" : "M2_Hanlde",
+                        "Texture": {
+                                     "map": "/textures/BaseColor/H1_Silver. Handle. BC.png",
+                                     "roughnessMap": "/textures/RoughMet/H1_Silver. Handle. RM.png",
+                                     "normalMap": null
+                        }
+                    },
+                    "Золотая": {
+                        "shader_name" : "M2_Hanlde",
+                        "Texture": {
+                                     "map": "/textures/BaseColor/H2_Gold. Handle. BC.png",
+                                     "roughnessMap": "/textures/RoughMet/H2_Gold. Handle. RM.png",
+                                     "normalMap": null
+                        }
+                    },
+                    "Глянцевый Пластик": {
+                        "shader_name" : "M2_Hanlde",
+                        "Texture": {
+                                     "map": "/textures/BaseColor/H3_GlossyPlastic. Handle. BC.png",
+                                     "roughnessMap": "/textures/RoughMet/H3_GlossyPlastic. Handle. RM.png",
+                                     "normalMap": null
+                                    }
+                    }
+                }
+            },
+            "Window": {
+                "MeshPhysicalMaterial": {
+                    "Стекло": {
+                        "shader_name" : "M3_Window",
+                        "Texture": {
+                                     "map": "/textures/BaseColor/W1_Glass. Window. BC.png",
+                                     "roughnessMap": "/textures/RoughMet/W1_Glass. Window. RM.png",  
+                                     "normalMap": null
+                                    }
+                    },
+                    "Зеркало": {
+                        "shader_name" : "M3_Window",
+                        "Texture": {
+                                     "map": "/textures/BaseColor/W2_Mirror. Window. BC.png",
+                                     "roughnessMap": "/textures/RoughMet/W2_Mirror. Window. RM.png", 
+                                     "normalMap": null
+                                    }
+                    },
+                    "Матовое стекло": {
+                        "shader_name" : "M3_Window",
+                        "Texture": {
+                                     "map": "/textures/BaseColor/W3_MatteGlass. Window. BC.png",
+                                     "roughnessMap": "/textures/RoughMet/W3_MatteGlass. Window. RM.png", 
+                                     "normalMap": null
+                                    }
+                    }
+                }
+            }
+        }
+}
+
